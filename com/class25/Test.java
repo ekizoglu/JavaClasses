@@ -27,5 +27,22 @@ public class Test {
 		dev.artifacts = "Sprint Demo, Planning, Retro, Daily Standup";
 		dev.ceremonies = "Spring Demo"; 
 		
+		System.out.println("Creating an object of ScrumMaster class");
+		ScrumMaster scm = new ScrumMaster(); 
+		scm.salary = 140000; 
+		scm.work(); 
+		scm.getPaid();
+		scm.manage();
+		scm.artifacts = "ScrumMaster artifacts"; 
+		scm.ceremonies = "ScrumMaster ceremonies"; 
+		
+		System.out.println("Creating an object of Tester class");
+		Tester tester = new Tester();
+		tester.salary = 100000; 
+		tester.work();
+		tester.getPaid(); 
+		tester.test(); 
+		tester.artifacts = "Tester artifacts"; 
+		tester.ceremonies = "Tester ceremonies"; 
 	}
 }
